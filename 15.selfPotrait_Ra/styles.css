@@ -1,0 +1,28 @@
+/* Container for the image and text */
+.image-container {
+    position: relative;
+    display: inline-block;
+}
+
+/* The image */
+.image-container img {
+    width: 100%;
+    height: auto;
+}
+
+/* The text inside the box */
+.text-box {
+    position: absolute;
+    bottom: 20px; /* Position near the bottom of the image */
+    left: 50%; /* Center horizontally */
+    transform: translateX(-50%); /* Center adjustment */
+    background-color: white; /* White background for the text box */
+    padding: 10px;
+    border: 2px solid black; /* Black border around the text box */
+    font-family: 'Sans-serif'; /* Sans font */
+    font-size: 48px; /* Font size of 48px */
+    color: red; /* Red text */
+    font-weight: bold; /* Bold text */
+    text-align: center; /* Center the text within the box */
+    width: auto;
+}
