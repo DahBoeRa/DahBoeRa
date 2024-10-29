@@ -1,0 +1,34 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body, html {
+    height: 100%;
+    font-family: Arial, sans-serif;
+    overflow-x: hidden; /* Prevent horizontal scrolling */
+}
+
+.container {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.text-box {
+    flex: 0 0 100vh; /* Each box takes full height of the viewport */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    color: white;
+    text-shadow: 1px 1px 2px black; /* Enhance text visibility */
+    transition: background 0.5s ease; /* Smooth background transition */
+}
+
+/* Full-screen background */
+body {
+    background: url('images/image1.jpg') no-repeat center center fixed; 
+    background-size: cover;
+}
