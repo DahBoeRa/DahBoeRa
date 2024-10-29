@@ -1,0 +1,43 @@
+/* Full screen background */
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: Arial, sans-serif;
+    overflow-x: hidden;
+}
+
+/* Content container */
+#content {
+    height: 100%;
+    width: 100%;
+    position: relative;
+}
+
+/* Styling for the text boxes */
+.text-box {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: flex-end; /* Align items at the bottom */
+    justify-content: center;
+    position: relative; /* For absolute positioning of the text */
+}
+
+/* Subtitle styling */
+.text-box p {
+    margin: 0;
+    padding: 10px; /* Space around the text */
+    font-size: 2rem; /* Adjust size as needed */
+    color: white; /* Text color */
+    text-align: center;
+
+    /* Red shadow around each letter */
+    text-shadow: 
+        1px 1px 0 red,    /* Right bottom shadow */
+        -1px -1px 0 red,  /* Left top shadow */
+        1px -1px 0 red,   /* Right top shadow */
+        -1px 1px 0 red;   /* Left bottom shadow */
+
+    width: auto; /* Allow the width to adjust based on content */
+}
