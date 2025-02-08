@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:excerpt="http://wordpress.org/export/1.2/excerpt/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:wfw="http://wellformedweb.org/CommentAPI/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:wp="http://wordpress.org/export/1.2/">
+  <channel>
+    <title>B-Roll</title>
+    <link>https://hypersphere-cornet-tj68.squarespace.com</link>
+    <pubDate>Sat, 08 Feb 2025 20:06:33 +0000</pubDate>
+    <description />
+    <language>en-US</language>
+    <wp:wxr_version>1.2</wp:wxr_version>
+    <wp:author>
+      <wp:author_id>-628128428</wp:author_id>
+      <wp:author_login>dahboera649@gmail.com</wp:author_login>
+      <wp:author_email>dahboera649@gmail.com</wp:author_email>
+      <wp:author_display_name><![CDATA[Dah BoeRa]]></wp:author_display_name>
+      <wp:author_first_name><![CDATA[Dah]]></wp:author_first_name>
+      <wp:author_last_name><![CDATA[BoeRa]]></wp:author_last_name>
+    </wp:author>
+    <wp:category>
+      <wp:cat_name><![CDATA[null - null]]></wp:cat_name>
+      <wp:category_nicename>null-null</wp:category_nicename>
+      <wp:category_parent />
+    </wp:category>
+    <item />
+    <item />
+    <item />
+    <item />
+  </channel>
+</rss>
+
